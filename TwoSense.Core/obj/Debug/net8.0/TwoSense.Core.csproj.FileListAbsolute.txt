@@ -1,0 +1,12 @@
+C:\sometest\TwoSense.Core\bin\Debug\net8.0\TwoSense.Core.deps.json
+C:\sometest\TwoSense.Core\bin\Debug\net8.0\TwoSense.Core.dll
+C:\sometest\TwoSense.Core\bin\Debug\net8.0\TwoSense.Core.pdb
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.AssemblyInfoInputs.cache
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.AssemblyInfo.cs
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.csproj.CoreCompileInputs.cache
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.sourcelink.json
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.dll
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\refint\TwoSense.Core.dll
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\TwoSense.Core.pdb
+C:\sometest\TwoSense.Core\obj\Debug\net8.0\ref\TwoSense.Core.dll
