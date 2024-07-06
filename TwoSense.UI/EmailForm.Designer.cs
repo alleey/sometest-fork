@@ -1,5 +1,5 @@
-﻿namespace TwoSense.Test;
-partial class SendEmail : Form
+﻿namespace TwoSense.UI;
+partial class EmailForm : Form
 {
     /// <summary>
     ///  Required designer variable.
@@ -34,45 +34,41 @@ partial class SendEmail : Form
         this.SendButton = new System.Windows.Forms.Button();
         this.BodyTextBox = new System.Windows.Forms.TextBox();
         this.SuspendLayout();
-        // 
+        //
         // ToLabel
-        // 
+        //
         this.ToLabel.AutoSize = true;
         this.ToLabel.Location = new System.Drawing.Point(30, 30);
         this.ToLabel.Name = "ToLabel";
         this.ToLabel.Size = new System.Drawing.Size(22, 15);
         this.ToLabel.TabIndex = 0;
         this.ToLabel.Text = "To:";
-        // 
+        //
         // SubjectLabel
-        // 
+        //
         this.SubjectLabel.AutoSize = true;
         this.SubjectLabel.Location = new System.Drawing.Point(30, 60);
         this.SubjectLabel.Name = "SubjectLabel";
         this.SubjectLabel.Size = new System.Drawing.Size(49, 15);
         this.SubjectLabel.TabIndex = 1;
         this.SubjectLabel.Text = "Subject:";
-        // 
+        //
         // ToTextBox
-        // 
+        //
         this.ToTextBox.Location = new System.Drawing.Point(88, 27);
         this.ToTextBox.Name = "ToTextBox";
         this.ToTextBox.Size = new System.Drawing.Size(601, 23);
         this.ToTextBox.TabIndex = 2;
-        this.ToTextBox.TextChanged += new System.EventHandler(this.TextBox_TextChanged);
-        this.ToTextBox.KeyDown += this.TextBox_KeyDown;
-        // 
+        //
         // SubjectTextBox
-        // 
+        //
         this.SubjectTextBox.Location = new System.Drawing.Point(88, 56);
         this.SubjectTextBox.Name = "SubjectTextBox";
         this.SubjectTextBox.Size = new System.Drawing.Size(601, 23);
         this.SubjectTextBox.TabIndex = 3;
-        this.SubjectTextBox.TextChanged += new System.EventHandler(this.TextBox_TextChanged);
-        this.SubjectTextBox.KeyDown += this.TextBox_KeyDown;
-        // 
+        //
         // SendButton
-        // 
+        //
         this.SendButton.Enabled = false;
         this.SendButton.Location = new System.Drawing.Point(695, 26);
         this.SendButton.Name = "SendButton";
@@ -80,20 +76,17 @@ partial class SendEmail : Form
         this.SendButton.TabIndex = 4;
         this.SendButton.Text = "Send";
         this.SendButton.UseVisualStyleBackColor = true;
-        this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
-        // 
+        //
         // BodyTextBox
-        // 
+        //
         this.BodyTextBox.Location = new System.Drawing.Point(88, 85);
         this.BodyTextBox.Multiline = true;
         this.BodyTextBox.Name = "BodyTextBox";
         this.BodyTextBox.Size = new System.Drawing.Size(700, 353);
         this.BodyTextBox.TabIndex = 5;
-        this.BodyTextBox.TextChanged += new System.EventHandler(this.TextBox_TextChanged);
-        this.BodyTextBox.KeyDown += this.TextBox_KeyDown;
-        // 
+        //
         // SendEmail
-        // 
+        //
         this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.ClientSize = new System.Drawing.Size(800, 450);

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Abstractions;
+namespace TwoSense.Core;
 public class CustomStopwatch : Stopwatch
 {
     public TimeSpan StartOffset { get; set; }
