@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSense.Test", "TwoSense.Test.csproj", "{6D49AD48-462E-4335-8ACD-C1EE1D23CB30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSense.UI", "TwoSense.UI\TwoSense.UI.csproj", "{6D49AD48-462E-4335-8ACD-C1EE1D23CB30}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{563971D3-13D1-4837-9DB6-252F390DF6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSense.Tests", "TwoSense.Tests\TwoSense.Tests.csproj", "{563971D3-13D1-4837-9DB6-252F390DF6BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "..\Abstractions\Abstractions.csproj", "{D51EA31C-3E85-4EDB-8920-093F182CD764}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSense.Core", "TwoSense.Core\TwoSense.Core.csproj", "{D51EA31C-3E85-4EDB-8920-093F182CD764}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
